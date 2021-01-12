@@ -167,3 +167,11 @@ ___
 - SDP signaling
 - Send the SDP generated string data file to the other party.
 - which type of network to send data to third party, don't matter.
+
+WebRTC Pros & Cons
+- Pros
+    - P2p is great! low latency for hight bandwidth content.
+    - Standardized API i don't have to build my own.
+- Cons
+    - Maintaining STUN & TURN servers
+    - Peer 2 Peer falls apart in case of multiple participants (discord cases)
